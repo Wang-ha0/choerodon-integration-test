@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="${%Choerodon平台配置}">
+        <f:entry field="apiUrl" title="${%Choerodon Api地址}">
+            <f:textbox/>
+        </f:entry>
+        <f:entry field="clientId" title="${%Choerodon Oauth clientId}">
+            <f:textbox/>
+        </f:entry>
+        <f:entry field="clientSecret" title="${%Choerodon Oauth clientSecret}">
+            <f:textbox/>
+        </f:entry>
+    </f:section>
+</j:jelly>

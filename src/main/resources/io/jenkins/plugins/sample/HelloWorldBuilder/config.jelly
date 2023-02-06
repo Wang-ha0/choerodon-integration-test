@@ -1,0 +1,16 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core"
+         xmlns:f="/lib/form">
+    <f:entry title="${%仓库类型}" field="repoType">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="${%仓库编码}" field="repoCode">
+        <f:textbox/>
+    </f:entry>
+    <!--    <f:advanced>-->
+    <!--        <f:entry title="${%French}" field="useFrench"-->
+    <!--                 description="${%FrenchDescr}">-->
+    <!--            <f:checkbox />-->
+    <!--        </f:entry>-->
+    <!--    </f:advanced>-->
+</j:jelly>
